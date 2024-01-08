@@ -1,0 +1,15 @@
+#navigation {
+    font-family:Maiandra GD;
+}
+#navigation .text-C0C0C0{
+    color:#C0C0C0;
+  }
+#navigation a{
+    text-decoration: none;
+}  
+#navigation a:hover{
+    color:white;
+}
+#navigation .navbar-collapse {
+  transition: 0.3s ease-in-out;
+}

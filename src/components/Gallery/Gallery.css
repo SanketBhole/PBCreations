@@ -1,0 +1,32 @@
+#gallery{
+    font-family:Maiandra GD;
+}
+#gallery a{
+    text-decoration:none;
+}
+#gallery a:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#gallery #portfol{
+    transition: 0.3s ease-in-out;
+}
+button{
+    border: 0px;
+
+    background-color: transparent;
+}
+#gallery button:hover{
+    color: white;
+}
+.fade{
+    transition: 0.3s ease-in-out;
+}
+#gallery button:active{
+    color:white;
+}
+
+#gallery button:focus{
+    color:white;
+}

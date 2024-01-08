@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family:Maiandra GD;
+}
+
+code {
+  font-family:Maiandra GD;
+}
+body::-webkit-scrollbar{
+  display: none;
+}

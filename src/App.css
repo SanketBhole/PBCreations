@@ -1,0 +1,10 @@
+body {
+  background-image: url(/public/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-duration: 500ms;
+}
+* .text-C0C0C0{
+  color:#C0C0C0;
+}
