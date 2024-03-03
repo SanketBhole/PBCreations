@@ -26,7 +26,7 @@ export default function About() {
         <h5 className='text-C0C0C0 text-center'>I am photographer and I captures the beauty and
           emotion of life's moments. With a keen eye for detail and a passion
           for storytelling, I creates stunning images that are both artistic and authentic. 
-          Whether it's a wedding, fashion shoot, or commercial shoot, I brings a unique 
+          Whether it's a wedding, fashion shoot, or commercial shoot. I brings a unique 
           perspective to every project and It's my speciality. I had developed a professionalism in my work. 
           I strives to create images that exceed expectations and capture memories that will last a lifetime.</h5>
       <br/>
