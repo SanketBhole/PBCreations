@@ -1,5 +1,6 @@
 import React from 'react'
 import '../About/About.css'
+import { useNavigate } from 'react-router-dom'; 
 import myabtimg from '../../images/about.jpg'
 import { motion } from "framer-motion";
 
@@ -19,10 +20,15 @@ const pageVariants = {
 }
 
 export default function About() {
+  const navigate = useNavigate();
+
+const goToCards = () => {
+    navigate('/contactcards');
+  };
   return (
     <motion.div className='container text-light'id='aboutsection' initial="out" animate="in" exit="out" variants={pageVariants}>
       {/* About Container */}
-        <h1 className="text-white text-center">ABOUT</h1>
+        <h1 className="text-white text-center">AB<button class="navigateButton m-0 p-0" onClick={goToCards}>O</button>UT</h1>
         <h5 className='text-C0C0C0 text-center'>I am photographer and I captures the beauty and
           emotion of life's moments. With a keen eye for detail and a passion
           for storytelling, I creates stunning images that are both artistic and authentic. 

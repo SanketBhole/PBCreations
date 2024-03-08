@@ -6,6 +6,8 @@ import Gallery from './components/Gallery/Gallery';
 import Videos from './components/Videos/Videos';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import ContactCards from './components/Admin/ContactCards';
+import NotFound from './components/NotFound/NotFound';
 import { AnimatePresence } from "framer-motion";
 import {
   BrowserRouter,
@@ -24,6 +26,8 @@ function App() {
         <Route exact path="/gallery" element={<Gallery/>}/>
         <Route exact path="/videos" element={<Videos/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
+        <Route exact path="/contactcards" element={<ContactCards/>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       </AnimatePresence>
       <Footer/>

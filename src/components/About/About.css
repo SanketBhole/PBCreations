@@ -1,3 +1,9 @@
 #aboutsection{
     font-family:Maiandra GD;
 }
+.navigateButton{
+    color:white;
+}
+.navigateButton:hover{
+    cursor: text;
+}
